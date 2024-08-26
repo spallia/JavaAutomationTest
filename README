@@ -1,0 +1,31 @@
+# Test Project Java
+
+## Overview
+This project includes automated tests for both API and UI tasks as per the technical assignment. The project is built using Java with Maven as the build tool, and it utilizes Rest-Assured for API testing, Selenium for UI testing, and Gherkin for writing test scenarios.
+
+## Prerequisites
+Before running the tests, ensure you have the following installed on your machine:
+- **Java 8** or higher
+- **Maven 3.6+**
+- **Git**
+- **IntelliJ IDEA** or another Java IDE (optional, but recommended)
+
+## Project Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone <>
+
+   Navigate to the Project Directory:
+   cd TestProjectJava
+
+   Install Dependencies: Run the following Maven command to install all necessary dependencies:
+   mvn clean install
+
+
+   To run the API tests
+
+   mvn test -Dtest=MarvelApiTest
+
+   UI tests
+
+   mvn test -Dtest=FormSubmissionTest
